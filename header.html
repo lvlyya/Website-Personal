@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+    <style>
+        header {
+            background-color: #00234B;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .header-logo {
+            font-size: 24px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .header-menu {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .header-menu li {
+            margin-right: 15px;
+        }
+        .header-menu li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+        .header-menu li a:hover {
+            color: #66ccff;
+        }
+        .content {
+            margin-top: 60px; 
+            padding: 20px;
+        }
+    </style>
+</head>
+    <header>
+        <div class="header-container">
+            <a href="#" class="header-logo">lvlys</a>
+            <ul class="header-menu">
+                <li><a href="home.html" target="mid">HOME</a></li>
+                <li><a href="aboutme.html" target="mid">ABOUT ME</a></li>
+                <li><a href="gallery.html" target="mid">GALLERY</a></li>
+                <li><a href="news.html" target="mid">NEWS</a></li>
+                <li><a href="contactme.html" target="mid">CONTACT ME</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <h2 style="text-align: center;">Lovely</h2>
+    </div>
+</html>
+</body>
